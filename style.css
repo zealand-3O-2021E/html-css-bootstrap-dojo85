@@ -53,3 +53,25 @@ div.name {
     object-fit: cover;
     
 }
+
+.shdw {
+    border: solid 1px #eeeeee;
+    box-shadow: 1px 1px 5px -2px lightgrey;
+    border-radius: 6px;
+}
+
+.intro-bg-image {
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-image: url('images/net-developer-module.jpg');
+  
+}
+
+body {
+    background-color: #fefefe !important;
+}
+
+.name-shdw {
+    text-shadow: 1px 1px 10px rgb(37, 48, 145);
+}
