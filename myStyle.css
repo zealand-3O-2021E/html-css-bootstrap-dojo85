@@ -3,12 +3,10 @@ body {
     font-size: 16px;
 }
 
-/* H1 tags */
 h1 { 
-
-    font-size: 1.25rem;
-    color: darkslateblue;
-    }
+  font-size: 24px;
+  color: darkslateblue;
+}
 
 .sidebar {
     width: 25%;

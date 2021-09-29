@@ -2,66 +2,156 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
-    
 <title>Page Title</title>
 </head>
 <body>
 
-  <div style="max-width: 1100px; text-align: center;">
-   <div class="sidebar">
-  <h1>Picture</h1>
-  <img class="profile-img" src="/html-css-bootstrap-dojo85/images/profile.jpg">
+<div class="container">
 
-  <div>
-    <h2>Name</h2>
-    <p>NikoDojan</p>
-    <h2>E-Mail</h2>
-    <p>niko201n@edu.eashj.dk</p>
-  </div>
-  <div style="margin-top: 1rem;">
-    <h2>Contact me</h2>
-    <form method="post" class="contact-form">
-      <input class="text-input w-100" type="text" placeholder="Subject">
-      <br>
-      <textarea class="text-input w-100" placeholder="Message"></textarea>
-      <br>
-      <button class="text-input" type="submit">Submit</button>
-    </form>
-  </div>
- </div>
+  <div class="intro-container">
 
-  <div class="main-section">
-    <h1>Work experience</h1>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
-    <h1>Educations</h1>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
-    <h1>Projects</h1>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
-    <h1>Interests</h1>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
+
+    <div class="w-100 h-100 intro-sub">
+      <div class="h-75" style="background-color: rgb(247, 247, 247); position: relative;">
+        <div class="name">
+          <p class="mb-1">Niko Dojan</p>
+          <div>    
+            <h6>Personal characteristics:</h6>
+            <table>
+              <tr>
+                <td><h5><span class="badge badge-primary">Communication</span></h5>  </td>
+                  <td><h5><span class="badge badge-primary">Responsibility</span></h5>  </td>
+                  <td>
+                    <h5><span class="badge badge-primary">Will to learn</span></h5>
+                  </td>
+              </tr>
+            </table>        
+                            
+                            
+                              
+          </div>
+          
+        </div>
+      </div>
+      <div class="h-25" style="background-color: rgb(70, 119, 255);">
+        
+        <div class="skills">
+          <div>
+            
+            <ul class="list-unstyled list-inline mb-0">
+              <li class="list-inline-item"><h6>Currently learning:</h6></li>
+              <li class="list-inline-item">
+                <h5><span class="badge badge-light">.NET</span></h5>
+              </li>
+              <li class="list-inline-item">
+                <h5><span class="badge badge-light">C#</span></h5>
+              </li>
+              <li class="list-inline-item">
+                <h5><span class="badge badge-light">Asp.Net</span></h5>
+              </li>
+              <li class="list-inline-item">
+                <h5><span class="badge badge-light">HTML</span></h5>
+              </li>
+              <li class="list-inline-item">
+                <h5><span class="badge badge-light">CSS</span></h5>
+              </li>
+              <li class="list-inline-item">
+                <h5><span class="badge badge-light">Bootstrap</span></h5>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="list-unstyled list-inline mb-0">
+              
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="img-container">
+      <img src="/html-css-bootstrap-dojo85/images/profile.jpg">
+    </div>
+
   </div>
+
+<section id="experience">
+  <div class="row">
+
+    <div class="col px-5 text-row" id="education">
+      <div class="shadow p-3 b-radius">            
+      <h5>Educations</h4>
+      <ul class="px-4">
+        <li>Study of Computer Science AP degree, ongoing</li>
+        <li>Study of International Business Communicaition B.A. (uncompleted)</li>
+      </ul> 
+      </div>
+    </div>
+
+  
+    <div class="col px-5 text-row" id="work">
+      <div class="shadow p-3 b-radius">
+            <h5>Work experience</h4>        
+          <ul class="list-unstyled px-4">
+            <li>
+              <li>Federal Police Officer (2007-2020)</li>
+              <ul>                
+                <li>Control and patrol officer</li>
+                <li>Head of Security in German Foreign Representations in Turkey
+                  and Bangladesh</li>
+                <li>FLIR and hoist operator for Police helicopters</li>
+              </ul>
+            </li>
+
+          </ul>        
+      </div>
+    </div>
+  </div>
+
+</section>
+
+  <div class="row px-5 text-row text-row">
+    <div class="shadow p-3 b-radius">
+      <h5>Projects</h5>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </div>
+  </div>
+
+  <div class="row px-5 text-row">
+    <div class="shadow p-3 b-radius">
+      <h5>Interests</h5>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </div>
+  </div>
+
+  <div class="row px-5 text-row">
+    <div class="shadow p-3 b-radius text-center w-100">
+      <h2>Contact me</h2>     
+      <div class="d-flex flex-row justify-content-center text-center">
+      <div class="col col-md-7 w-100">
+              <form method="post">                  
+                    <input class="form-control mb-1" type="text" placeholder="Subject">    
+                    <textarea class="form-control mb-1" placeholder="Message" rows="5"></textarea>          
+                    <button class="btn btn-outline-dark" type="submit">Submit</button>
+                </form>
+            </div>
+      </div>
+      
+      
+    </div>
+  </div>
+
+
 
 </div>
-
-
-
-
-
-
-
-
-
 </body>
 </html> 
 

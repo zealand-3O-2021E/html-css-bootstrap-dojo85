@@ -1,0 +1,55 @@
+.text-row {
+    margin: 1rem 0;
+}
+
+.b-radius {
+    border-radius: 12px;
+}
+
+.bg-blue {
+    background-color: darkblue !important;
+}
+
+div.skills {
+    position: absolute;
+    max-width: fit-content;
+    bottom: .5rem;
+    right: 1rem;
+}
+
+div.name {
+    position: absolute;
+    max-width: fit-content;
+    bottom: 0;
+    left: 300px;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.intro-container {
+    height: 50vh;
+}
+
+.img-container {
+    position: relative;
+    z-index: 10;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    bottom: 270px;
+    left:20px;
+    border: solid 4px white;
+}
+
+.intro-sub {
+    position: relative;
+}
+
+.img-container > img {
+    width: 250px;
+    height: 250px;
+    object-position: center;
+    object-fit: cover;
+    
+}
